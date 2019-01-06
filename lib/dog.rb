@@ -9,8 +9,7 @@ class Dog
   end 
   
   def self.all 
-    @@all 
-    puts @@all.join("\n")
+    @@all.each {|dog| puts}
   end 
   
   def self.clear_all 
