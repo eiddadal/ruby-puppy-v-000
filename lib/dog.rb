@@ -10,7 +10,7 @@ class Dog
   
   def self.all 
     @@all 
-    puts @@all.join(/\n/)
+    puts @@all.join("\t")
   end 
   
   def self.clear_all 
