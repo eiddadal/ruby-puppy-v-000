@@ -10,7 +10,10 @@ class Dog
   
   def self.all 
     @@all 
-    puts @name(', ')
+    puts @@all.join(', ')
   end 
   
+  def self.clear_all 
+    @@all.clear 
+  end 
 end 
